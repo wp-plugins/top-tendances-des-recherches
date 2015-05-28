@@ -92,7 +92,8 @@ Non. Il est optimisé pour limiter le nombre de requêtes effectuées en sortie 
 
 == Screenshots ==
 
-1. Réglages de l'extension
+1. Réglages de l'extension / configuring the plugin
+2. Widget sur un blog / widget on a blog
 
 == Changelog ==
 
