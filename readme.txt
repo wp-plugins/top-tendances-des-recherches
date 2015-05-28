@@ -6,9 +6,7 @@ Tested up to: 4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Top des sujets d'actualité les plus recherchés par les Français sur le moteur de recherche d'Orange, les médias et les réseaux sociaux.
-
-Want to know which stories are creating the most buzz among French internet users? Toptrends tracks and showcases all activity on Orange search engine le moteur, media and social networking sites. 
+Top des sujets d'actualité les plus recherchés par les Français sur le moteur de recherche d'Orange, les médias et les réseaux sociaux. - Want to know which stories are creating the most buzz among French internet users? Toptrends tracks and showcases all activity on Orange search engine le moteur, media and social networking sites. 
 
 == Description ==
 
