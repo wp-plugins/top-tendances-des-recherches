@@ -1,6 +1,6 @@
 === Plugin Name ===
-Tags: api, category, filter, news, search, shortcode, social media, twitter, widget, sports
-Stable tag: 1.0
+Tags: api, category, filter, news, search, shortcode, social media, twitter, widget, sports, personnalités, actualités
+Stable tag: 1.0.1
 Requires at least: 4.1
 Tested up to: 4.1
 License: GPLv2 or later
@@ -8,7 +8,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Top des sujets d'actualité les plus recherchés par les Français sur le moteur de recherche d'Orange, les médias et les réseaux sociaux.
 
+Want to know which stories are creating the most buzz among French internet users? Toptrends tracks and showcases all activity on Orange search engine le moteur, media and social networking sites. 
+
 == Description ==
+
+= FRANCAIS =
 
 Fournit toutes les heures, le Top des sujets d'actualité les plus recherchés par les Français sur le moteur de recherche d'Orange, les médias et les réseaux sociaux.
  
@@ -16,13 +20,24 @@ Ce plugin se décline aussi en un top Personnalités et Sport.
 
 Il incite ainsi à s'informer et à lire la presse Française bien mise en avant ensuite.
 
+= ENGLISH =
+
+Search Toptrends showcases the most popular topics of conversation by analyzing and aggregating on an hourly basis the millions of news searches made on Orange le moteur and shared on media and social networking sites.  This plugin also analyzes celebrity and sports news.You know what’s being talked about, with links to the French press. 
 == Installation ==
+
+= FRANCAIS =
 
 1. Installez le plugin via le WordPress.org plugin directory, ou en uploadant les fichiers sur votre serveur.
 2. Activez le plugin depuis le menu de WordPress.
 3. Mettez en place, à votre convenance, un Widget ou un Shortcode `[top_tendance]`.
 
+= ENGLISH =
+
+1. Install the plugin via the WordPress.org plugin directory by searching for “Top Tendances des recherches”, or by uploading the files to your server. 2. Activate the plugin in the WordPress menu.3. Use a widget or a shortcode `[top_tendance]`.
+
 == Frequently Asked Questions ==
+
+= FRANCAIS =
 
 **1) FAQ sur l'affichage des réponses**
 
@@ -74,6 +89,8 @@ Si vous avez installé le plugin de façon standard, comme un plugin WordPress t
 = Mon hébergeur me facture la bande passante consommée. Le plugin top tendance est-il gourmand en volume de données transférées ? =
 Non. Il est optimisé pour limiter le nombre de requêtes effectuées en sortie de votre serveur. De plus, les réponses, de type texte, sont de très petite taille.
 
+= ENGLISH =
+**1) general FAQs**= I don’t know how to use the plugin on my page =You have two options * either via the WordPress Backoffice, by going to Appearence > Widgets, and dragging the widget called « Top Tendance » into the appropriate column. * or directly into your page, by using the reference « shortcode ».   * Example 1 (only display news, a maximum of 5 responses): ``[top_tendance category="actu" limit=5]``    * Example 2 (display all article categories, a maximum of 5 responses): ``[top_tendance limit=5]``= My plugin limit is set to 15, however, the plugin only displays 12 articles =There may be fewer articles to display than your limit allows for, for example the API may only return 13 relevant articles.= A sports article that appears in the news feed doesn’t automatically appear in the sports feed. This is the same for all categories. =Each category is totally independent. The articles from different categories might sometimes overlap, but not always, within the widget’s functionality. = I want to apply a particular style or theme from my site to the top_tendance shortcode =The plugin doesn’t integrate particular style sheets but it is built so that it can easily interface with a plugin theme. Example: in the style sheet theme, you can personalize the shortcode style in the following ways: * Example 1 : ``div.entry-content ul.shortcode_top_tendance {border: 1px dashed #000;}`` * Example 2 : ``div.entry-content ul.shortcode_top_tendance li a {color: inherit;}``= Sometimes the top trend changes regularly during the day, and sometimes it doesn’t =This is normal as it follows whatever story is trending most – sometimes with lots of changes (when it’s a busy news day with lots of different stories) and sometimes hardly any (when there is one key news item that everyone is talking about). = I’m worried that my site will show trends of a pornographic, racist or violent nature =Our top trend engine has built in protection that avoids words that the general public might find shocking or to only display items to a forewarned audience. = I have installed Toptrends and sometimes the results are surprising (displaying non important subjects, unknown words etc.) =Toptrends collates large volumes of searches, so it is responding in real time to large-scale searches in that particular moment – a trend. You won’t believe some of the things that can suddenly become a buzz!**2) technical FAQs**= I keep getting an error message when using the pluginVerify your server’s software version. You’ll need PHP version 5.4 or higher and WordPress 4.1 or higher to be compatible with the plugin.   = In the WordPress Backoffice page for configuring the plugin I get the error message “Token generation failure”  Check you haven’t set up filtering rules on your network configuration (firewall, router etc).= Toptrends results usually display automatically but there is nothing displaying =Toptrends results might not be available due to a technical problem on our side. If this happens your Toptrends feed will appear empty. We’ll be working to get things back up and running again as soon as possible. = How do I get the latest plugin updates? =If you’ve installed the plugin via WordPress in the usual way then all updates will happen automatically. You’ll also receive new categories and features. = I’m charged for all bandwidth consumed by my service provider. Will the Toptrends plugin demand extra volume to transfer the data? =No. It is optimized to limit the number of requests sent by your server. The responses are all in text format to keep the data size small.
 
 == Screenshots ==
 
@@ -83,3 +100,6 @@ Non. Il est optimisé pour limiter le nombre de requêtes effectuées en sortie 
 
 = 1.0 =
 * Livraison initiale
+
+= 1.0.1 = 
+* Updated homepage and assets
