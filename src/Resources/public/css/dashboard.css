@@ -1,0 +1,27 @@
+div#top_tendance ul {
+    padding-left: 20px;
+}
+
+div#top_tendance ul li {
+    list-style: inside;
+}
+
+div#top_tendance ul li label {
+    vertical-align: baseline;
+}
+
+div#top_tendance ul li span.token-state,
+div#top_tendance p span.generate-token-status {
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+div#top_tendance ul li span.valid-token,
+div#top_tendance p span.successful-message {
+    background-color: #B8F5B1;
+}
+
+div#top_tendance ul li span.invalid-token,
+div#top_tendance p span.failed-message {
+    background-color: #FF9F9F;
+}
