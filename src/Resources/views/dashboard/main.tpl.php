@@ -4,11 +4,6 @@ use Orange\Partner\TopTendance\Plugin;
 use Orange\Partner\TopTendance\Option;
 use Orange\Partner\Core;
 
-$state = 'Invalid';
-if ($parameters['isTokenValid']) {
-    $state = 'Valid';
-}
-
 ?>
 
 <h2><?php echo Plugin::translate('Utilisation :'); ?></h2>
@@ -35,17 +30,3 @@ if ($parameters['isTokenValid']) {
 
 <hr />
 
-<h2><?php echo Plugin::translate('Configuration :'); ?></h2>
-<blockquote>
-    <h3><?php echo Plugin::translate('Identifiants :'); ?></h3>
-    <ul>
-        <li><label><?php echo Plugin::translate('Client ID'); ?></label> :     <code><?php echo Option::getClientId(); ?></code></li>
-        <li><label><?php echo Plugin::translate('Client Secret'); ?></label> : <code><?php echo Option::getClientSecret(); ?></code></li>
-    </ul>
-    
-    <h3><?php echo Plugin::translate('Validité :'); ?></h3>
-    <ul>
-        <li><label><?php echo Plugin::translate('Token'); ?></label> : <code><?php echo Option::getTokenValue(); ?></code></li>
-        <li><label><?php echo Plugin::translate('Etat du token'); ?></label> : <span class="token-state <?php echo strtolower($state); ?>-token"><?php echo Plugin::translate($state); ?></span></li>
-    </ul>
-</blockquote>
