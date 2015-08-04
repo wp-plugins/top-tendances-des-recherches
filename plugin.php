@@ -4,7 +4,7 @@
 Plugin Name: TOP TENDANCE DES RECHERCHES
 Plugin URI: https://www.orangepartner.com/toptrends-wordpress-plugin
 Description: Fournit toutes les heures, le Top des sujets d'actualité les plus recherchés par les Français sur le moteur de recherche d'Orange, les médias et les réseaux sociaux. Ce plugin se décline aussi en un top Personnalités et Sport. Il incite ainsi à s'informer et à lire la presse Française bien mise en avant ensuite.
-Version: 1.0.1
+Version: 1.0.2
 Author: Orange Partner
 Author URI: http://www.orangepartner.com
 License: GPL2
